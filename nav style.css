@@ -1,0 +1,159 @@
+@media (min-width: 500px) and (max-width: 1024px) {
+  header {
+    width: 1024px;
+  }
+}
+
+/* navbar arrangement and styling */
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  height: 55px;
+  width: 113px;
+}
+
+.logo {
+  background-image: url(amazon_logo.png);
+  background-size: cover;
+  height: 65px;
+  width: 113px;
+}
+
+.border {
+  border: 1.5px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+/* Box - 2 */
+
+.nav-address {
+  margin-left: 8px;
+}
+
+.add-first {
+  color: #cccccc;
+  font-size: 0.75em;
+  margin-left: 15px;
+}
+
+.add-second {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-left: 3px;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+/* Box - 3 */
+
+.nav-search {
+  display: flex;
+  background-color: red;
+  justify-content: center;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  margin-left: 28px;
+  font-size: 14px;
+}
+
+.search-select {
+  background-color: #f3f3f3;
+  width: 60px;
+  padding-left: 5px;
+  color: #0f1111;
+  font-weight: 500;
+  text-align: center;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.search-input {
+  width: 695px;
+  border: none;
+  padding: 7px;
+  font-size: 1rem;
+}
+
+@media (min-width: 500px) and (max-width: 1024px) {
+  .search-input {
+    width: 395px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .search-input {
+    width: calc((100% - 395px) / 2 + 695px);
+  }
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 45px;
+  border: 2px;
+  font-size: 1.28rem;
+  color: black;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #febd68;
+}
+
+.nav-search:hover {
+  border: 2px solid orange;
+}
+
+/* Box - 4, 5 */
+
+span {
+  font-size: 12px;
+}
+
+.nav-second {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Box - 6 */
+
+.nav-cart {
+  display: flex;
+  align-items: end;
+  height: 30px;
+}
+
+.cart-img {
+  height: 25px;
+}
+
+.cart {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cart-quantity {
+  color: rgb(240, 136, 4);
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  bottom: 12px;
+  right: 19px;
+  text-align: center;
+}
